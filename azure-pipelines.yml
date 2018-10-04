@@ -16,4 +16,4 @@ steps:
     npm install
     npm run test
   displayName: 'npm install and build'
-- script: bash <(curl -s https://copilot-valid.blackducksoftware.com/ci/azure/scripts/upload)
+- script: bash <(curl -s https://copilot-test.blackducksoftware.com/ci/azure/scripts/upload)
